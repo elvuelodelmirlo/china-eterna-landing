@@ -39,10 +39,7 @@ export default function Home() {
                 China Eterna – Nuevos Grupos Otoño 2026
               </h1>
               <p className="mt-4 text-lg md:text-xl text-gray-700">
-                El grupo de mayo ya está <span className="font-semibold">cerrado con 40 viajeros</span>. Por demanda,
-                abrimos dos nuevas salidas en <span className="font-semibold">septiembre</span> y{" "}
-                <span className="font-semibold">octubre</span>. Mismo itinerario de 12 días / 10 noches. La salida se
-                confirma con un mínimo de <span className="font-semibold">10 viajeros</span>.
+                El grupo de mayo ya está <span className="font-semibold">cerrado con 40 viajeros</span>. Por demanda, abrimos dos nuevas salidas en <span className="font-semibold">septiembre</span> y <span className="font-semibold">octubre</span>. Mismo itinerario de 12 días / 10 noches. La salida se confirma con un mínimo de <span className="font-semibold">10 viajeros</span>.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a href="#grupos" className="inline-flex">
@@ -74,8 +71,7 @@ export default function Home() {
           },
           {
             title: "Coordinación de grupo en destino",
-            text:
-              "Ambiente cuidado y atención personalizada. Coordinación integral del grupo durante todo el viaje con equipo local de habla hispana.",
+            text: "Ambiente cuidado y atención personalizada. Coordinación integral del grupo durante todo el viaje con equipo local de habla hispana.",
           },
         ].map(({ title, text }) => (
           <div key={title} className="rounded-2xl border p-6 shadow-sm bg-white">
@@ -94,16 +90,12 @@ export default function Home() {
             <h3 className="mt-2 text-2xl font-bold">Salida de septiembre · 12 días</h3>
             <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
               <li>Mismo programa que mayo (China Eterna).</li>
-              <li>
-                Precio estimado desde <strong>2.400 €</strong> por persona.
-              </li>
-              <li>
-                Grupo confirmado a partir de <strong>10 viajeros</strong>.
-              </li>
+              <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
+              <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
             </ul>
             <div className="mt-4 flex gap-3">
               <a
-                href="PON_AQUI_TU_PDF"
+                href="https://drive.google.com/file/d/1ecd8ChQJvKi6IidvAAi0lqilqo2gpLy1/preview"
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition"
@@ -127,16 +119,12 @@ export default function Home() {
             <h3 className="mt-2 text-2xl font-bold">Salida de octubre · 12 días</h3>
             <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
               <li>Mismo programa que mayo (China Eterna).</li>
-              <li>
-                Precio estimado desde <strong>2.400 €</strong> por persona.
-              </li>
-              <li>
-                Grupo confirmado a partir de <strong>10 viajeros</strong>.
-              </li>
+              <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
+              <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
             </ul>
             <div className="mt-4 flex gap-3">
               <a
-                href="PON_AQUI_TU_PDF"
+                href="https://drive.google.com/file/d/1ecd8ChQJvKi6IidvAAi0lqilqo2gpLy1/preview"
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition"
@@ -158,8 +146,7 @@ export default function Home() {
         {/* Nota */}
         <div className="mt-6 rounded-2xl border p-4 bg-amber-50 text-amber-900">
           <p className="text-sm">
-            El itinerario, servicios incluidos y política de pagos/cancelación siguen la propuesta base “China Eterna”.
-            El precio final puede variar por tipo de cambio RMB y tasas. Consulta el detalle completo más abajo.
+            El itinerario, servicios incluidos y política de pagos/cancelación siguen la propuesta base “China Eterna”. El precio final puede variar por tipo de cambio RMB y tasas. Consulta el detalle completo más abajo.
           </p>
         </div>
       </section>
@@ -167,11 +154,9 @@ export default function Home() {
       {/* ITINERARIO */}
       <section id="itinerario" className="mx-auto max-w-4xl px-6 py-10">
         <h2 className="text-2xl font-bold">Itinerario completo — 12 días / 10 noches</h2>
-
-        {/* Enlace para descargar PDF */}
         <div className="mt-2">
           <a
-            href="PON_AQUI_TU_PDF"
+            href="https://drive.google.com/file/d/1ecd8ChQJvKi6IidvAAi0lqilqo2gpLy1/preview"
             target="_blank"
             rel="noreferrer"
             className="text-rose-700 underline font-medium"
@@ -179,7 +164,6 @@ export default function Home() {
             Descargar PDF del itinerario
           </a>
         </div>
-
         <details className="mt-4 rounded-xl border p-5 bg-white shadow-sm" open>
           <summary className="cursor-pointer font-semibold">Ver resumen día a día</summary>
           <ol className="mt-4 list-decimal pl-6 space-y-1 text-sm text-gray-800">
@@ -197,12 +181,6 @@ export default function Home() {
             <li><strong>Día 12</strong> – Tren rápido Shanghái → Pekín y vuelo de regreso.</li>
           </ol>
         </details>
-
-        <div className="mt-6 text-sm text-gray-700 space-y-2">
-          <p><strong>Incluye:</strong> vuelos internacionales, vuelos internos, trenes de alta velocidad, hoteles 4★ o superior (desayuno), pensión completa (10 cenas, 8 almuerzos), guías locales en español, traslados, entradas, seguro de cancelación y asistencia.</p>
-          <p><strong>No incluye:</strong> visado, gastos personales, propinas (3 USD/pax/día), comidas no mencionadas, suplemento individual.</p>
-          <p><strong>Pagos:</strong> 30% (hasta 30/09/2025), 40% (hasta 31/12/2025), 30% (hasta 20/03/2026). La salida se confirma con mínimo 10 viajeros.</p>
-        </div>
       </section>
 
       {/* FORM / CTA */}
@@ -239,19 +217,13 @@ export default function Home() {
           <div>
             <p className="font-semibold">Contacto</p>
             <p className="text-sm text-gray-700">
-              Web:{" "}
-              <a className="underline" href="https://www.elvuelodelmirlo.com" target="_blank" rel="noreferrer">
-                www.elvuelodelmirlo.com
-              </a>
+              Web: <a className="underline" href="https://www.elvuelodelmirlo.com" target="_blank" rel="noreferrer">www.elvuelodelmirlo.com</a>
             </p>
             <p className="text-sm text-gray-700">
               Email: <a className="underline" href="mailto:info@elvuelodelmirlo.com">info@elvuelodelmirlo.com</a>
             </p>
             <p className="text-sm text-gray-700">
-              WhatsApp:{" "}
-              <a className="underline" href="https://wa.me/34667886770" target="_blank" rel="noreferrer">
-                667 886 770
-              </a>
+              WhatsApp: <a className="underline" href="https://wa.me/34667886770" target="_blank" rel="noreferrer">667 886 770</a>
             </p>
           </div>
           <div className="text-sm text-gray-600">
