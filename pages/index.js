@@ -123,7 +123,7 @@ export default function Home() {
   </div>
 </section>
 
-      {/* FORM */}
+  {/* FORM */}
 <section id="reserva" className="mx-auto max-w-3xl px-6 py-12">
   <div className="rounded-2xl border p-0 shadow-sm bg-white overflow-hidden">
     <iframe
