@@ -64,84 +64,67 @@ export default function Home() {
 
       {/* GROUP BLOCKS */}
       <section id="grupos" className="mx-auto max-w-6xl px-6 pb-6">
-        <div className="grid lg:grid-cols-2 gap-6">
-          <div className="rounded-2xl border p-6 bg-white shadow-sm">
-            <div className="text-rose-700 font-semibold">Grupo Septiembre 2026</div>
-            <h3 className="mt-2 text-2xl font-bold">Salida de septiembre · 12 días</h3>
-            <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
-              <li>Mismo programa que mayo (China Eterna).</li>
-              <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
-              <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
-            </ul>
-            <div className="mt-4 flex gap-3">
-             <a href="#itinerario" ...>Itinerario</a>
-<a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Septiembre+2026"
-  target="_blank"
-  rel="noreferrer"
-  className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
->
-  Me apunto a septiembre
-</a>
+  <div className="grid lg:grid-cols-2 gap-6">
+    {/* SEPTIEMBRE */}
+    <div className="rounded-2xl border p-6 bg-white shadow-sm">
+      <div className="text-rose-700 font-semibold">Grupo Septiembre 2026</div>
+      <h3 className="mt-2 text-2xl font-bold">Salida de septiembre · 12 días</h3>
+      <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
+        <li>Mismo programa que mayo (China Eterna).</li>
+        <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
+        <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
+      </ul>
+      <div className="mt-4 flex gap-3">
+        <a href="#itinerario" className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition">
+          Itinerario
+        </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Septiembre+2026"
+          target="_blank"
+          rel="noreferrer"
+          className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
+        >
+          Me apunto a septiembre
+        </a>
+      </div>
+    </div>
 
-          <div className="rounded-2xl border p-6 bg-white shadow-sm">
-            <div className="text-rose-700 font-semibold">Grupo Octubre 2026</div>
-            <h3 className="mt-2 text-2xl font-bold">Salida de octubre · 12 días</h3>
-            <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
-              <li>Mismo programa que mayo (China Eterna).</li>
-              <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
-              <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
-            </ul>
-            <div className="mt-4 flex gap-3">
-             <a href="#itinerario" ...>Itinerario</a>
-<a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Octubre+2026"
-  target="_blank"
-  rel="noreferrer"
-  className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
->
-  Me apunto a octubre
-</a>
+    {/* OCTUBRE */}
+    <div className="rounded-2xl border p-6 bg-white shadow-sm">
+      <div className="text-rose-700 font-semibold">Grupo Octubre 2026</div>
+      <h3 className="mt-2 text-2xl font-bold">Salida de octubre · 12 días</h3>
+      <ul className="mt-3 space-y-2 text-sm text-gray-700 list-disc pl-5">
+        <li>Mismo programa que mayo (China Eterna).</li>
+        <li>Precio estimado desde <strong>2.400 €</strong> por persona.</li>
+        <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
+      </ul>
+      <div className="mt-4 flex gap-3">
+        <a href="#itinerario" className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition">
+          Itinerario
+        </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Octubre+2026"
+          target="_blank"
+          rel="noreferrer"
+          className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
+        >
+          Me apunto a octubre
+        </a>
+      </div>
+    </div>
+  </div>
 
-        {/* Nota */}
-        <div className="mt-6 rounded-2xl border p-4 bg-amber-50 text-amber-900">
-          <p className="text-sm">
-            El itinerario, servicios incluidos y política de pagos/cancelación siguen la propuesta base “China Eterna”. El precio final puede variar por tipo de cambio RMB y tasas.
-            Consulta el detalle completo más abajo.
-          </p>
-        </div>
-      </section>
-
-      {/* ITINERARIO */}
-      <section id="itinerario" className="mx-auto max-w-4xl px-6 py-10">
-        <h2 className="text-2xl font-bold">Itinerario completo — 12 días / 10 noches</h2>
-        <details className="mt-4 rounded-xl border p-5 bg-white shadow-sm" open>
-          <summary className="cursor-pointer font-semibold">Ver resumen día a día</summary>
-          <ol className="mt-4 list-decimal pl-6 space-y-1 text-sm text-gray-800">
-            <li><strong>Día 1</strong> – Salida desde Madrid.</li>
-            <li><strong>Día 2</strong> – Llegada a Pekín, Tian’anmen. Cena y alojamiento.</li>
-            <li><strong>Día 3</strong> – Ciudad Prohibida, Templo del Cielo, Hutongs y cena de Pato Laqueado.</li>
-            <li><strong>Día 4</strong> – Gran Muralla (Mutianyu), casa de té. Opción Ópera de Pekín.</li>
-            <li><strong>Día 5</strong> – Palacio de Verano, tren rápido a Xi’an. Cena y alojamiento.</li>
-            <li><strong>Día 6</strong> – Guerreros de Terracota, Barrio Musulmán, Gran Mezquita. Banquete de dumplings + espectáculo Tang.</li>
-            <li><strong>Día 7</strong> – Murallas antiguas, Pagoda del Pequeño Ganso, Museo de Xi’an. Vuelo a Guilin.</li>
-            <li><strong>Día 8</strong> – Excursión a Longsheng: arrozales de Longji y etnia Zhuang.</li>
-            <li><strong>Día 9</strong> – Crucero por el río Li hasta Yangshuo. Opción “Impression Liu Sanjie”.</li>
-            <li><strong>Día 10</strong> – Vuelo a Shanghái. Jardín Yu, fábrica de seda y Bund.</li>
-            <li><strong>Día 11</strong> – Templo del Buda de Jade, Torre Perla Oriental + museo, crucero Huangpu, compras Nanjing Road.</li>
-            <li><strong>Día 12</strong> – Tren rápido Shanghái → Pekín y vuelo de regreso.</li>
-          </ol>
-        </details>
-
-        <div className="mt-6 text-sm text-gray-700 space-y-2">
-          <p><strong>Incluye:</strong> vuelos internacionales, vuelos internos, trenes de alta velocidad, hoteles 4★ o superior (desayuno), pensión completa (10 cenas, 8 almuerzos), guías locales en español, traslados, entradas, seguro de cancelación y asistencia.</p>
-          <p><strong>No incluye:</strong> visado, gastos personales, propinas (3 USD/pax/día), comidas no mencionadas, suplemento individual.</p>
-          <p><strong>Pagos:</strong> 30% (hasta 30/09/2025), 40% (hasta 31/12/2025), 30% (hasta 20/03/2026). La salida se confirma con mínimo 10 viajeros.</p>
-        </div>
-      </section>
+  {/* Nota */}
+  <div className="mt-6 rounded-2xl border p-4 bg-amber-50 text-amber-900">
+    <p className="text-sm">
+      El itinerario, servicios incluidos y política de pagos/cancelación siguen la propuesta base “China Eterna”.
+      El precio final puede variar por tipo de cambio RMB y tasas. Consulta el detalle completo más abajo.
+    </p>
+  </div>
+</section>
 
       {/* FORM */}
-      <s<section id="reserva" className="mx-auto max-w-3xl px-6 py-12">
+<section id="reserva" className="mx-auto max-w-3xl px-6 py-12">
   <div className="rounded-2xl border p-0 shadow-sm bg-white overflow-hidden">
     <iframe
       src="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?embedded=true"
@@ -156,7 +139,6 @@ export default function Home() {
     </iframe>
   </div>
 </section>
-
       {/* FOOTER */}
       <footer className="bg-gray-50 border-t mt-8">
         <div className="mx-auto max-w-6xl px-6 py-10 grid md:grid-cols-2 gap-6 items-center">
