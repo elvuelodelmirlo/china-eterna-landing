@@ -74,10 +74,15 @@ export default function Home() {
               <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
             </ul>
             <div className="mt-4 flex gap-3">
-              <a href="#itinerario" className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition">Itinerario</a>
-              <a href="#reserva" onClick={() => setGroupChoice("septiembre")} className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition">Me apunto a septiembre</a>
-            </div>
-          </div>
+             <a href="#itinerario" ...>Itinerario</a>
+<a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Septiembre+2026"
+  target="_blank"
+  rel="noreferrer"
+  className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
+>
+  Me apunto a septiembre
+</a>
 
           <div className="rounded-2xl border p-6 bg-white shadow-sm">
             <div className="text-rose-700 font-semibold">Grupo Octubre 2026</div>
@@ -88,11 +93,15 @@ export default function Home() {
               <li>Grupo confirmado a partir de <strong>10 viajeros</strong>.</li>
             </ul>
             <div className="mt-4 flex gap-3">
-              <a href="#itinerario" className="px-4 py-2 rounded-lg border hover:bg-gray-50 transition">Itinerario</a>
-              <a href="#reserva" onClick={() => setGroupChoice("octubre")} className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition">Me apunto a octubre</a>
-            </div>
-          </div>
-        </div>
+             <a href="#itinerario" ...>Itinerario</a>
+<a
+  href="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?usp=pp_url&entry.644543654=Octubre+2026"
+  target="_blank"
+  rel="noreferrer"
+  className="px-4 py-2 rounded-lg bg-rose-700 text-white font-semibold hover:bg-rose-800 transition"
+>
+  Me apunto a octubre
+</a>
 
         {/* Nota */}
         <div className="mt-6 rounded-2xl border p-4 bg-amber-50 text-amber-900">
@@ -132,48 +141,21 @@ export default function Home() {
       </section>
 
       {/* FORM */}
-      <section id="reserva" className="mx-auto max-w-3xl px-6 py-12">
-        <div className="rounded-2xl border p-6 shadow-sm bg-white">
-          <h2 className="text-2xl font-bold">Reserva tu plaza</h2>
-          <p className="mt-1 text-sm text-gray-700">Completa el formulario y te contactaremos por WhatsApp o email en menos de 24 h laborales. Grupo confirmado a partir de 10 viajeros.</p>
-          <form className="mt-6 grid gap-4">
-            <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <label className="text-sm font-medium">Nombre y apellidos</label>
-                <input className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="Ej. Laura Martínez" required />
-              </div>
-              <div>
-                <label className="text-sm font-medium">Teléfono / WhatsApp</label>
-                <input className="mt-1 w-full rounded-lg border px-3 py-2" type="tel" placeholder="Ej. +34 6XX XXX XXX" required />
-              </div>
-            </div>
-            <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <label className="text-sm font-medium">Email</label>
-                <input className="mt-1 w-full rounded-lg border px-3 py-2" type="email" placeholder="tu@email.com" required />
-              </div>
-              <div>
-                <label className="text-sm font-medium">Número de viajeros</label>
-                <input className="mt-1 w-full rounded-lg border px-3 py-2" type="number" min={1} defaultValue={2} required />
-              </div>
-            </div>
-            <div>
-              <label className="text-sm font-medium">Preferencia de grupo</label>
-              <div className="mt-2 grid grid-cols-2 gap-2">
-                <button type="button" onClick={() => setGroupChoice("septiembre")} className={`px-4 py-2 rounded-lg border ${groupChoice==="septiembre" ? "bg-rose-700 text-white border-rose-700" : "hover:bg-gray-50"}`}>Septiembre 2026</button>
-                <button type="button" onClick={() => setGroupChoice("octubre")} className={`px-4 py-2 rounded-lg border ${groupChoice==="octubre" ? "bg-rose-700 text-white border-rose-700" : "hover:bg-gray-50"}`}>Octubre 2026</button>
-              </div>
-            </div>
-            <div>
-              <label className="text-sm font-medium">Comentarios (opcional)</label>
-              <textarea className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="Cuéntanos si viajas en familia, ciudad de salida, alergias, etc." />
-            </div>
-            <div className="pt-2">
-              <button className="w-full px-5 py-3 rounded-xl bg-rose-700 text-white font-semibold shadow hover:bg-rose-800 transition">Enviar solicitud</button>
-            </div>
-          </form>
-        </div>
-      </section>
+      <s<section id="reserva" className="mx-auto max-w-3xl px-6 py-12">
+  <div className="rounded-2xl border p-0 shadow-sm bg-white overflow-hidden">
+    <iframe
+      src="https://docs.google.com/forms/d/e/1FAIpQLSemDvZaqxzXpQwcU3sN4kyTetjD3uI8hd3HAbJR1MOc65Catg/viewform?embedded=true"
+      width="100%"
+      height="1250"
+      frameBorder="0"
+      marginHeight="0"
+      marginWidth="0"
+      title="Inscripción China Eterna"
+    >
+      Cargando…
+    </iframe>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="bg-gray-50 border-t mt-8">
